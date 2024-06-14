@@ -1,0 +1,118 @@
+<html>
+<head>
+
+<title>Contact</title>
+<style>
+
+
+.info{
+
+ display:flex;
+ justify-content:space-between;
+ margin-left:72%;
+ 
+ }
+.simple a{
+    position:relative;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    }
+ .simple a::before{
+        content:'';
+        position:absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height:2px;
+        background:green;
+    }
+    .simple a:hover::before{
+        width:100%;
+    }
+.body{
+position:relative;
+background-image:url("https://img.freepik.com/free-photo/high-angle-measuring-tools-still-life_23-2150440970.jpg");
+height:100vh;
+background-size:cover;
+background-position:center;
+z-index:0;
+}
+.body::after{
+content:"";
+position:absolute;
+z-index:-1;
+height:100vh;
+ width:100%;
+ top:0;
+ left:0;
+ background:black;
+ opacity:0.6;
+}
+
+.index{
+color:white;
+}
+
+.index h1{
+margin-top:100px;
+text-align:center;
+font-size:30px;
+
+}
+.mail h3{
+text-align:center;
+}
+div.desc{
+text-align:center;
+}
+div.ddesc{
+text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="body">
+<div class="logo">
+ <img src="logo.png",width="30"height="40">
+
+<div class="info">
+<nav class="simple">
+
+<a href="backg.html">Home</a>
+<a href="about.html">About</a>
+<a href="placement.html">Placement</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+</div>
+
+<section class="index">
+<h1>Contact Us</h1>
+
+
+<section class="mail">
+<h3>Email</h3>
+<div class="desc">gm@ekc.edu.in</div>
+<div class="ddesc">office@ekc.edu.in</div>
+</section>
+
+<section class="mail">
+<h3>Location</h3>
+<div class="desc">Eranad Knowledge City,</div>
+<div class="ddesc">Cherukulam,Manjeri,Malappuram District,</div>
+<div class="ddesc">Kerala PIN 676-122</div>
+</section>
+
+<section class="mail">
+<h3>Phone</h3>
+<div class="desc">+91 8086 33 11 55</div>
+<div class="ddesc">+91 9446 00 98 24</div>
+</section>
+
+
+</section>
+</body>
+</html>

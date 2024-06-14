@@ -1,0 +1,107 @@
+<html>
+<head>
+
+<title>ekc civil webpage</title>
+<style>
+*{ margin: 0;
+   padding: 0;
+   
+}
+
+
+.body{
+ position:relative;
+ background-image: url("https://www.targetadmission.com/img/colleges/newc/32861-318277.jpg");
+ height: 100vh;
+ z-index: 0;
+ background-size: cover;
+ background-position:center;
+ background-repeat:no-repeat;
+}
+
+.body::after{
+ content:"";
+ position:absolute;
+ z-index: -1;
+ height:100vh;
+ width:100%;
+ top:0;
+ left:0;
+ background:black;
+ opacity:0.6;
+}
+
+
+
+
+
+h1{
+ color: white;
+ font-family: "Times New Roman",Times,serif;
+ font-size:35px;
+ text-align:center;
+ position:absolute;
+ top: 50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+}
+.info{
+
+ display:flex;
+ justify-content:space-between;
+ margin-left:68%;
+ 
+ }
+.simple a{
+    position:relative;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    }
+ .simple a::before{
+        content:'';
+        position:absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height:2px;
+        background:green;
+    }
+    .simple a:hover::before{
+        width:100%;
+    }
+.desc{
+text-align:center;
+position:absolute;
+top: 55%;
+left:32%;
+color:lightyellow;
+}
+
+</style>
+</head>
+<body>
+
+<div class="body">
+
+<div class="logo">
+ <img src="logo.png",width="30"height="40">
+
+<div class="info">
+
+<nav class="simple">
+<a href="backg.html">Home</a>
+<a href="about.html">About</a>
+<a href="placement.html">Placement</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+</div>
+
+<h1>Civil Engineering </h1>
+</div>
+<div class="desc">
+<p> Civil engineering is the art of making things work.
+</body>
+</html>
